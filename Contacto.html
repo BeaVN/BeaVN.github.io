@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Importamos el archivo css que está detro de la carpeta bootstrap, además del link de bootstrap para poder utilizar los iconos de este-->
+    <link rel="stylesheet" href="/bootstrap/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Contacta</title>
+</head>
+<body class="cuerpo">
+     <!--Creamos un div donde vamos a tener a la cabecera y dentro de esta va a estar un menú de navegación-->
+    <div class="cabecera-Pagina">
+        <h1>Beatriz VN</h1>
+        <nav class="contenedor-navegacion">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobreMi.html">Sobre Mí</a></li>
+                <li><a href="Proyecto.html">Proyectos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Creamos un div donde vamos a alojar el contenido de la página en este caso será los iconos y los popups que hemos utilizado-->
+    <div class="contenido-PaginaContacto">
+        <p>Puedes ponerte en contacto conmigo a través de las siguientes maneras</p>
+    </div>
+
+    <div class="iconosContacto">
+        <i id="telefono-btn" class="bi bi-telephone-outbound" onclick="mostrarTelefonoPopup()"></i>
+        <i id="gmail-btn" class="bi bi-envelope-at" onclick="mostrarGmailPopup()"></i>
+        <a href="https://www.linkedin.com/in/beatriz-velazquez-nuez-6370822b5/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/BeaVN/Beatriz-VN" target="_blank"><i class="bi bi-github"></i></a>
+    </div>
+
+    <div id="popup-telefono" class="popup">
+        <span id="close-btn" onclick="cerrarPopup('popup-telefono')">&#10006;</span>
+        <h2>El teléfono de contacto es</h2>
+        <p>628-311-303</p>
+    </div>
+
+    <div id="popup-gmail" class="popup">
+        <span id="close-btn" onclick="cerrarPopup('popup-gmail')">&#10006;</span>
+        <h2>Correo electrónico de contacto</h2>
+        <p>beatrizvelaznuez@gmail.com</p>
+    </div>
+
+    <!--Creamos otro div con un pie de página donde pondremos quien ha realizado este proyecto-->
+    <div class="pie-Pagina">
+        <footer class="pie-pagina">
+            Derechos de autora &copy; 2024 - Beatriz Velázquez Nuez
+        </footer>
+    </div>
+
+    <div id="fondoOscuro"></div>
+
+    <!--Importamos el fichero que necesitamos para que cuando hagamos el click sobre el telefono o la carta nos muestre el popup-->
+    <script src="/js/Contacto.js"></script>
+</body>
+</html>

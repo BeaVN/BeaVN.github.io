@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Importamos el archivo css que está detro de la carpeta bootstrap-->
+    <link rel="stylesheet" href="/bootstrap/style.css">
+    <title>Proyecto</title>
+</head>
+<body class="cuerpo">
+    <!--Creamos un div donde vamos a tener a la cabecera y dentro de esta va a estar un menú de navegación-->
+    <div class="cabecera-Pagina">
+        <h1>Beatriz VN</h1>
+        <nav class="contenedor-navegacion">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobreMi.html">Sobre Mí</a></li>
+                <li><a href="Contacto.html">Contacta</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Creamos un div donde vamos a alojar el contenido de la pagina de proyectos y donde también vamos a encontrar las cartas que hemos empleado-->
+    <div class="contenido-PaginaProyecto">  
+        <div class="carta carta-superior">
+            <h3>Proyecto con Laravel</h3>
+            <img src="/img/proyectoLaravel.png" alt="Imagen 1">
+            <p>En este proyecto, lo que hemos utilizado es el framework que se llama el Laravel. Lo que hemos hecho
+                es listar unos proyectos y estos también se pueden editar, eliminar y crear. 
+                En conclusión, hemos creado el crud completo de la aplicación.
+            </p>
+        </div>
+    
+        <div class="carta carta-superior">
+            <h3>Proyecto con una Api</h3>
+            <img src="/img/ProyectoApi.png" alt="Imagen 2">
+            <p>En este proyecto, lo que hemos hecho ha sido atacar a una API que nos ha proporcionado el profesor, hemos
+                echo diferentes peticiones al servidor donde se ubica la API y mediante esas peticiones lo que van
+                a hacer es devolvernos un estado 200 si está todo perfecto o un estado 404 si la petición ha sido fallida.
+            </p>
+        </div>
+    
+        <div class="carta carta-superior">
+            <h3>Proyecto galería de fotos</h3>
+            <img src="/img/ProyectoGaleria.png" alt="Imagen 3">
+            <p>En este proyecto, lo que hemos hecho es simular que teníamos una base de datos, que en nuestro caso van a hacer
+                las fotos y lo que hemos hecho como resultado final es realizar una galería de fotos para los que son amantes 
+                de las fotografías y tengan un sitio donde poder ver de una forma más dinámica sus fotos.
+            </p>
+        </div>
+    
+        
+    </div>
+    
+    <!--Importamos el fichero que necesitamos para que cuando hagamos el click sobre el telefono o la carta nos muestre el popup-->
+    <div class="pie-Pagina">
+        <footer class="pie-pagina">
+            Derechos de autora &copy; 2024 - Beatriz Velázquez Nuez
+        </footer>
+    </div>
+</body>
+</html>

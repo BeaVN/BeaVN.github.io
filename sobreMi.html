@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Importamos el archivo css que está detro de la carpeta bootstrap, además del link de bootstrap para poder utilizar los iconos de este-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bootstrap/style.css">
+    <title>Página sobre Mí</title>
+</head>
+<body class="cuerpo">
+    <!--Creamos un div donde vamos a tener a la cabecera y dentro de esta va a estar un menú de navegación-->
+    <div class="cabecera-Pagina">
+        <h1>Beatriz VN</h1>
+        <nav class="contenedor-navegacion">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Proyecto.html">Proyectos</a></li>
+                <li><a href="Contacto.html">Contacta</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Creamos un div donde vamos a alojar toda la información de la página sobreMi-->
+    <div class="contenido-PaginaSobreMi">
+        <div class="imagen-destacada text-center"> 
+            <img src="/img/Bea.png">
+        </div>
+        <h1 class="text-center">¡¡BUENAS, ME PRESENTO!!</h1>
+
+        <div class="parrafo1SobreMi">
+            <p>Soy Beatriz Velázquez Nuez, me gusta el deporte, la música y la buena compañía.
+                Durante mi curso en bachillerato, la programación empezó a llamar  mi interés ya 
+                que me daba la oportunidad de poder crear distintas aplicaciones y dar rienda 
+                suelta a mi creatividad.
+            </p>
+        </div>
+        
+        <div class="parrafo2SobreMi">
+            <p>Finalmente, decidí cursar el ciclo formativo de Desarrollo de Aplicación Web. Durante el curso
+                he adquirido habilidades y conocimientos, no solo en Backend sino también en Frontend.
+            </p>
+        </div>
+
+        <div class="parrafo3SobreMi">
+            <p>Mi objetivo acceder a un puesto que me permita  poner en práctica mis conocimientos y habilidades que me ayude crecer
+                y crear mi propio estilo.
+            </p>
+        </div>
+
+        <!--creamos un div donde vamos a tener un icono de pdf y cuando pulsemos sobre este nos lleve a otra página mostrandonos el curriculum-->
+        <div class="iconoPDF text-center"> 
+            <p class="parrafo6">
+                En el siguiente icono del PDF, adjunto mi currículum por si desea echar un vistazo.
+            </p>
+            <a href="/curriculum/Curriculum.pdf" target="_blank">
+                <i class="bi bi-file-pdf"></i>
+            </a>
+        </div>
+    </div>
+
+    <!--Importamos el fichero que necesitamos para que cuando hagamos el click sobre el telefono o la carta nos muestre el popup-->
+    <div class="pie-Pagina">
+        <footer class="pie-pagina">
+            Derechos de autora &copy; 2024 - Beatriz Velázquez Nuez
+        </footer>
+    </div>
+</body>
+</html>
