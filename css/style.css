@@ -265,7 +265,7 @@ a {
 }
 .lefter {
     transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
-    background-image: url(/img/inicio.png);
+    background-image: url(../img/inicio.png);
 }
 
 .left {
